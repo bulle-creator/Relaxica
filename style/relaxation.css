@@ -1,0 +1,100 @@
+/* Barre de navigation*/
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Yeon Sung', cursive;
+
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #8b4b0f;
+    color: #ffffff;
+    margin: 0;
+    text-decoration: none;
+}
+.inner_header{
+    width: 1100px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_container{
+    height: 100px;
+    display: table;
+    float: left;
+    height: 80px;
+}
+.logo_container h1{
+    color: rgb(255, 255, 255);
+    height: 80%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 80%; 
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'Yeon Sung', cursive;
+    font-size: 16px;
+}
+/*Fin de la barre de navigation */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #8b4b0f;
+    color: rgb(255, 255, 255);
+}
+
+/*Ne pas oublier les 2 points sur le chemin de l'image*/
+body{
+    background-image: url("../image/font.png");
+}
+
+.image{
+    height: 400px; 
+    width: 550px;
+    /*Centré l'image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*Arrondie les angles*/
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+
+audio
+    { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
